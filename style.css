@@ -67,5 +67,9 @@
 #parte-2 {
   text-align: center;
 }
+ #parte-2 img {
+    width: 500px; /* Largura fixa */
+    height:500px; /* Altura fixa */
+    object-fit: cover; /* Redimensiona a imagem para cobrir o contêiner mantendo a proporção */
 
-
+ }
