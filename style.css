@@ -47,7 +47,7 @@
   text-transform: uppercase;
   font-size: 50px;
   -webkit-text-stroke: 3px #000;
-   text-stroke: 1px #000;
+   
   padding-bottom: 20px;
   margin-top: -25%;
   text-align: center;
@@ -60,7 +60,6 @@
   font-size: 25px;
   font-weight: bold;
   -webkit-text-stroke: 1px #000;
-  text-stroke: 1px #000;
 }
 
 
