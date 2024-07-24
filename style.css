@@ -1,26 +1,71 @@
-.texto-1 a{
- text-decoration: none;
- margin:8px;
-}
-#container-1{
-  text-align:right;
-}
-.foto{
-display: flex;
-justify-content: center;
-/* align-items: center; */
-border: 3px solid red;
-border-radius: 50px;
-padding:25px ;
-margin-top:5%;
-margin-left:7% ;
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+  margin-top: 0;
 }
 
-
-
-#sobre {
-  color: green;
+#topo {
+  background-color: rgba(0, 0, 0, 0.9);
+  padding: 18px 20px;
   display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom:-2%;
+  /* position: fixed; */
+  /* z-index: 1000; */
+}
+
+.titulo {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 25px;
+  -webkit-text-stroke: 1px #000;
+  margin-left:-37%;
+  margin-top: 1%;
+}
+
+.navegação {
+  margin-top: 1%;
+}
+
+.navegação a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 20px;;
+  text-transform: uppercase;
+}
+
+.fotos {
+  background-image: url(/img/photo-1554224154-26032ffc0d07.avif);
+  padding: 22% 15%;
+  
+}
+
+.fotos h1 {
+  text-transform: uppercase;
+  font-size: 50px;
+  -webkit-text-stroke: 3px #000;
+   text-stroke: 1px #000;
+  padding-bottom: 20px;
+  margin-top: -25%;
+  text-align: center;
+  color: #ffffff;
+}
+
+.fotos p {
+  color: #ffffff;
+  text-transform: uppercase;
+  font-size: 25px;
+  font-weight: bold;
+  -webkit-text-stroke: 1px #000;
+  text-stroke: 1px #000;
+}
+
+
+#parte-2 {
   text-align: center;
 }
-  
+
+
