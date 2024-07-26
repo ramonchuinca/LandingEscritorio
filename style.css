@@ -74,9 +74,8 @@
   padding-top: 2%;
 }
  #parte-2 img {
-    width: 500px; /* Largura fixa */
-    height:500px; /* Altura fixa */
-    object-fit: cover;
+    width: 500px;
+    height:500px; 
  }
 
  .texto-section {
@@ -91,4 +90,5 @@
   font-size:22px;
   font-weight: bold;
 }
+
  
